@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet" />
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                line-height: 1.5em;
+            }
+
+            body {
+                font-family: "Raleway", sans-serif;
+                display: grid;
+                place-items: center;
+                height: 100vh;
+                background: rgb(236, 236, 236);
+            }
+
+            .main {
+                max-width: 1000px;
+                width: calc(100% - 4rem);
+                max-height: 700px;
+                height: calc(100% - 4rem);
+                padding: 2rem;
+                border: 1px solid #ccc;
+                border-radius: 7px;
+                background: #fff;
+                overflow-y: auto;
+            }
+
+            p {
+                margin-bottom: 0.8rem;
+            }
+
+            li {
+                margin: 0.4rem 0 0.4rem 1.25rem;
+                padding: 0.4rem;
+                width: fit-content;
+                background-color: rgb(236, 236, 236);
+                border: 1px solid #ccc;
+                border-radius: 7px;
+                list-style-type: disc;
+            }
+
+            a {
+                all: unset;
+                display: inline-block;
+                padding: 1rem 2rem;
+                background: rgb(0, 152, 190);
+                color: white;
+                font-weight: bold;
+                cursor: pointer;
+                border-radius: 7px;
+                margin: 0.8rem 0;
+            }
+        </style>
+        <title>Git & Github</title>
+    </head>
+    <body>
+        <main class="main">
+            <h1>Git & Github project</h1>
+            <p>
+                Git is a free and open source distributed version control system designed to handle everything from
+                small to very large projects with speed and efficiency.
+            </p>
+            <p>
+                Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools
+                like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient
+                staging areas, and multiple workflows.
+            </p>
+            <ul>
+                <li>git init</li>
+                <li>git commit -m</li>
+                <li>git remote add origin</li>
+                <li>git push</li>
+                <li>git pull</li>
+                <li>git checkout</li>
+            </ul>
+            <a target="_blank" href="https://github.com/">Github</a>
+        </main>
+    </body>
+</html>
